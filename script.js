@@ -73,4 +73,4 @@ var tl = gsap.timeline()
 
 //dots
 .fromTo(dots, 6, {autoAlpha: 0}, {autoAlpha: 1, ease: Expo.easeOut}, 'flower3+=1')
-.fromTo(dots, 5, {scale: 0, transformOrigin: '50% 50%'}, {scale: 1, ease: Expo,easeOut}, 'flower3')
+.fromTo(dots, 5, {scale: 0, transformOrigin: '50% 50%' }, {scale: 1, ease: Expo,easeOut}, 'flower3')
